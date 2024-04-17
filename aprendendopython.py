@@ -59,3 +59,20 @@ print(lista_de_nomes)
 idades = [20,30,32,22]
 idades.sort()
 print(idades)
+
+# Repetiçao / Loop
+# While / For 
+# While geralmente usado em listas que não sabe quando termina
+meta_vendas = 10
+vendas = 0
+
+while vendas < meta_vendas:
+    print (f"Vende mais! Só foi {vendas}")
+    vendas = vendas + 1
+
+# For usado para percorrer a lista toda quando sabe que tem fim.
+
+nomes = ["Carlos", "Priscila" , "Robson"]
+for nome in nomes:
+    print(nome)
+
